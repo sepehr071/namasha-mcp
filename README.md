@@ -84,10 +84,6 @@ Real answers (18 Nov 2026): `nm_search(query="آموزش پایتون")` returne
 - The home "featured" row rotates on every load. Home rows other than featured and special are not exposed.
 - Namasha answered both Iranian and foreign networks in testing; if yours is blocked, set `NAMASHA_MCP_PROXY`. The server ignores system proxy variables on purpose.
 
-## How it works
-
-Namasha has no public API documentation. The pages and the small AJAX endpoints behind them (comments, suggested videos) were mapped by watching namasha.com in Chrome, and every tool was then checked in Chrome against the real rendered pages on 18 Nov 2026. The server fetches those same public pages through a Chrome-impersonating HTTP client, with a short cache and at most two requests at a time.
-
 ## فارسی
 
 <div dir="rtl">
