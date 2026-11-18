@@ -1,6 +1,6 @@
 [project]
 name = "namasha-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for Namasha (نماشا, namasha.com), the Iranian video platform: search, videos, channels, categories."
 readme = "README.md"
 license = "PolyForm-Noncommercial-1.0.0"
